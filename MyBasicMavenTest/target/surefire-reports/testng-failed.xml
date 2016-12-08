@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [MPS Portal-2 Automation v1.0]" parallel="none">
+  <test name="MVN Basic Test(failed)" parallel="none">
+    <classes>
+      <class name="com.my.basic.test.CreateServiceRequestBFTest">
+        <methods>
+          <include name="CreateServiceReqst_BF"/>
+          <include name="SetUP"/>
+        </methods>
+      </class> <!-- com.my.basic.test.CreateServiceRequestBFTest -->
+      <class name="com.my.basic.test.Test_RemoveDeviceTest">
+        <methods>
+          <include name="SetUP"/>
+          <include name="RemoveDeviceTest"/>
+        </methods>
+      </class> <!-- com.my.basic.test.Test_RemoveDeviceTest -->
+      <class name="com.my.basic.test.CreateNewAddressTest">
+        <methods>
+          <include name="CreateNewAddress_Test"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.my.basic.test.CreateNewAddressTest -->
+      <class name="com.my.basic.test.Test_DA_CreateNewExternalUserTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.my.basic.test.Test_DA_CreateNewExternalUserTest -->
+      <class name="com.my.basic.test.AddShippingLinkTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.my.basic.test.AddShippingLinkTest -->
+      <class name="com.my.basic.test.Test_RemoveContactTest">
+        <methods>
+          <include name="deleteContact"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.my.basic.test.Test_RemoveContactTest -->
+    </classes>
+  </test> <!-- MVN Basic Test(failed) -->
+</suite> <!-- Failed suite [MPS Portal-2 Automation v1.0] -->
