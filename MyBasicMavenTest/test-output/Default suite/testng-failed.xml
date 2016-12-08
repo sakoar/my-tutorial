@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.my.basic.test.ThisIsTest">
+      <class name="com.my.basic.test.DA_Disable_user_Reactivate">
         <methods>
-          <include name="browserTest"/>
+          <include name="setUp"/>
+          <include name="launch"/>
+          <include name="InActivatingUser"/>
+          <include name="logout"/>
+          <include name="ReActivatingUser"/>
         </methods>
-      </class> <!-- com.my.basic.test.ThisIsTest -->
+      </class> <!-- com.my.basic.test.DA_Disable_user_Reactivate -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

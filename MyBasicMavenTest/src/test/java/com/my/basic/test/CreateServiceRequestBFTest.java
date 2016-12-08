@@ -15,6 +15,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -42,7 +43,9 @@ public class CreateServiceRequestBFTest {
 public void SetUP() throws InterruptedException{
 	logger.info("################# This is BreakFix Test ####################");
 	System.out.println("################# This is BreakFix Test ####################");
-	driver = new FirefoxDriver();
+	//driver = new FirefoxDriver();
+	System.setProperty("webdriver.chrome.driver", "drivers//chromedriver.exe");
+	driver = new ChromeDriver();
 	driver.get(baseUrl);
 	driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 	Thread.sleep(5000);
@@ -52,6 +55,7 @@ public void SetUP() throws InterruptedException{
 		signin.Login("perftest_bestbuy11@customer.com", "Lexmark01");
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		logger.info("Login successful");
+		Thread.sleep(5000);
 	  }
 
 @Test

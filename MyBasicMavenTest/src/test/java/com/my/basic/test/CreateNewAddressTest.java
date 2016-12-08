@@ -46,7 +46,9 @@ public class CreateNewAddressTest {
 //	System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
 	//System.setProperty("webdriver.chrome.driver", "/Users/sakoar/Documents/workspace/MyBasicMavenTest/drivers/chromedriver");
     //driver = new ChromeDriver();
-	driver = new FirefoxDriver();
+	//driver = new FirefoxDriver();
+	System.setProperty("webdriver.chrome.driver", "drivers//chromedriver.exe");
+	driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(baseUrl);
 		driver.manage().timeouts().implicitlyWait(50,TimeUnit.SECONDS);

@@ -37,7 +37,9 @@ String baseUrl = "https://managedservices.qa.lexmark.com";//"Launching url
 public void setUp() throws InterruptedException{
 //System.setProperty("webdriver.firefox.bin", "C:\\Users\\sanoaoa\\AppData\\Local\\Mozilla Firefox\\firefox.exe");
 //System.setProperty("webdriver.gecko.driver", "C:\\Users\\sanoaoa\\workspace\\MPS_Venus_Test_Automation\\drivers\\geckodriver.exe");
-driver = new FirefoxDriver();
+//driver = new FirefoxDriver();
+	System.setProperty("webdriver.chrome.driver", "drivers//chromedriver.exe");
+	driver = new ChromeDriver();
 //System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
 //driver=new ChromeDriver();
 

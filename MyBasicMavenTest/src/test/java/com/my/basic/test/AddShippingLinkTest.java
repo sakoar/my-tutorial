@@ -13,6 +13,7 @@ import java.util.logging.Logger;
 
 import org.apache.commons.logging.impl.Log4JLogger;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
@@ -36,6 +37,8 @@ public void setUp() throws InterruptedException{
 //PropertyConfigurator.configure("log4j.properties");
 //System.setProperty("webdriver.firefox.bin", "C:\\Users\\sanoaoa\\AppData\\Local\\Mozilla Firefox\\firefox.exe");
 //driver = new FirefoxDriver();
+	System.setProperty("webdriver.chrome.driver", "drivers//chromedriver.exe");
+	driver = new ChromeDriver();
 driver.manage().window().maximize();
 driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 //logger.info("Launching URL");

@@ -46,7 +46,9 @@ public class Test_DA_CreateNewExternalUserTest {
 		//System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
 		//driver=new ChromeDriver();
 	//System.setProperty("webdriver.firefox.bin", "C:\\Users\\sanoaoa\\AppData\\Local\\Mozilla Firefox\\firefox.exe");
-    driver = new FirefoxDriver();
+    //driver = new FirefoxDriver();
+	System.setProperty("webdriver.chrome.driver", "drivers//chromedriver.exe");
+	driver = new ChromeDriver();
 //System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
 //driver = new ChromeDriver();
 		driver.manage().window().maximize();

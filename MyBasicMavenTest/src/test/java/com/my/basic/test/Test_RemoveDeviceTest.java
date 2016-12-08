@@ -38,7 +38,9 @@ public void SetUP() throws InterruptedException{
 //	PropertyConfigurator.configure("log4j.properties");
 //	logger.info("################# This is REMOVE Device Test ####################");
 	//System.setProperty("webdriver.firefox.bin", "C:\\Users\\sanoaoa\\AppData\\Local\\Mozilla Firefox\\firefox.exe");
-    driver = new FirefoxDriver();
+   // driver = new FirefoxDriver();
+	System.setProperty("webdriver.chrome.driver", "drivers//chromedriver.exe");
+	driver = new ChromeDriver();
 	//System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
     //driver = new ChromeDriver();
 	driver.get(baseUrl);
