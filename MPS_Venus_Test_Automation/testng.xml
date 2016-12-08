@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "MPS Portal-2 Automation v1.0" parallel="none">
+	
+
+<test name = "MPS Portal2.0 Automation ">
+		<classes>
+					
+			<class name="com.mps.test.CreateNewAddressTest"/>
+			<class name="com.mps.test.CreateServiceRequestBF"/>
+			<class name="com.mps.test.DA_Disable_user_Reactivate"/>
+			<class name="com.mps.test.RemoveDevice"/>
+			
+			<class name="com.mps.test.Test_DA_CreateNewExternalUser"/>
+			<class name="com.mps.test.Test_RemoveContact"/>
+			<class name="com.mps.test.Test_RemoveAddress"/>
+			<class name="com.mps.test.userCreationTest"/>
+			
+			<class name="com.mps.test.Test_UpdateUser"/>
+			<class name="com.mps.test.Test_DeviceOverview_ServiceRequest"/>
+			<class name="com.mps.test.Test_MADC_Lexmark_AddDevice"/>
+			<class name="com.mps.test.Test_MADC_NonLexmark_AddDevice"/>
+			
+			<class name="com.mps.test.Test_ChangeDevice_MultipleDevices"/>
+			<class name="com.mps.test.Test_PA_NewGlobalTag"/>
+			<class name="com.mps.test.Test_PA_UpdateOthersDoc"/>
+			<class name="com.mps.test.TestManagedServicesVerification"/>
+            
+            <class name="com.mps.test.Test_Consumables_Ordr_Shipped"/>
+            <class name="com.mps.test.Test_AddShippingLink"/>
+            <class name="com.mps.test.Test_Orders_AccessoriesRequest_ShipAndBill"/>   
+			<class name="com.mps.test.Test_PageCountUpdate"/>
+			
+			<class name="com.mps.test.Test_PortalAdmin_HomePageNotification"/>
+			<class name="com.mps.test.Test_PrinterBundle_LexmarkTOInstallation"/>
+			<class name="com.mps.test.AccountSelectionTest"/>
+			<class name="com.mps.test.Test_DeviceList"/>
+			<class name="com.mps.test.Test_DeviceMove"/>
+			<class name="com.mps.test.Test_DeviceOrderSupplies"/>
+			
+		</classes>
+</test>	
+</suite>		

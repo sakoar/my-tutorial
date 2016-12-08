@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MPS Portal-2 Automation v1.0]" parallel="none">
+  <test name="MPS Portal2.0 Automation (failed)" parallel="none">
+    <classes>
+      <class name="com.mps.test.Test_MADC_NonLexmark_AddDevice">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mps.test.Test_MADC_NonLexmark_AddDevice -->
+      <class name="com.mps.test.Test_DeviceMove">
+        <methods>
+          <include name="setUp"/>
+          <include name="updateContact"/>
+        </methods>
+      </class> <!-- com.mps.test.Test_DeviceMove -->
+      <class name="com.mps.test.Test_PrinterBundle_LexmarkTOInstallation">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mps.test.Test_PrinterBundle_LexmarkTOInstallation -->
+      <class name="com.mps.test.Test_DeviceList">
+        <methods>
+          <include name="setUp"/>
+          <include name="deviceOverview"/>
+        </methods>
+      </class> <!-- com.mps.test.Test_DeviceList -->
+      <class name="com.mps.test.CreateServiceRequestBF">
+        <methods>
+          <include name="SetUP"/>
+          <include name="CreateServiceReqst_BF"/>
+        </methods>
+      </class> <!-- com.mps.test.CreateServiceRequestBF -->
+      <class name="com.mps.test.Test_DA_CreateNewExternalUser">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mps.test.Test_DA_CreateNewExternalUser -->
+      <class name="com.mps.test.TestManagedServicesVerification">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyOrdersLinks"/>
+          <include name="verifyDeviceChangeReqLinks"/>
+        </methods>
+      </class> <!-- com.mps.test.TestManagedServicesVerification -->
+      <class name="com.mps.test.RemoveDevice">
+        <methods>
+          <include name="SetUP"/>
+        </methods>
+      </class> <!-- com.mps.test.RemoveDevice -->
+      <class name="com.mps.test.Test_DeviceOrderSupplies">
+        <methods>
+          <include name="setUp"/>
+          <include name="deviceSupplyOrder"/>
+        </methods>
+      </class> <!-- com.mps.test.Test_DeviceOrderSupplies -->
+      <class name="com.mps.test.Test_DeviceOverview_ServiceRequest">
+        <methods>
+          <include name="deviceOverview"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mps.test.Test_DeviceOverview_ServiceRequest -->
+      <class name="com.mps.test.userCreationTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mps.test.userCreationTest -->
+      <class name="com.mps.test.Test_PageCountUpdate">
+        <methods>
+          <include name="SetUP"/>
+        </methods>
+      </class> <!-- com.mps.test.Test_PageCountUpdate -->
+      <class name="com.mps.test.Test_PA_NewGlobalTag">
+        <methods>
+          <include name="createTag"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mps.test.Test_PA_NewGlobalTag -->
+      <class name="com.mps.test.Test_PA_UpdateOthersDoc">
+        <methods>
+          <include name="setUp"/>
+          <include name="createTag"/>
+        </methods>
+      </class> <!-- com.mps.test.Test_PA_UpdateOthersDoc -->
+      <class name="com.mps.test.Test_PortalAdmin_HomePageNotification">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mps.test.Test_PortalAdmin_HomePageNotification -->
+      <class name="com.mps.test.Test_RemoveAddress">
+        <methods>
+          <include name="RemoveAddressTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mps.test.Test_RemoveAddress -->
+      <class name="com.mps.test.Test_RemoveContact">
+        <methods>
+          <include name="setUp"/>
+          <include name="deleteContact"/>
+        </methods>
+      </class> <!-- com.mps.test.Test_RemoveContact -->
+      <class name="com.mps.test.Test_AddShippingLink">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mps.test.Test_AddShippingLink -->
+      <class name="com.mps.test.Test_ChangeDevice_MultipleDevices">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mps.test.Test_ChangeDevice_MultipleDevices -->
+      <class name="com.mps.test.Test_UpdateUser">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mps.test.Test_UpdateUser -->
+      <class name="com.mps.test.DA_Disable_user_Reactivate">
+        <methods>
+          <include name="launch"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mps.test.DA_Disable_user_Reactivate -->
+      <class name="com.mps.test.Test_Orders_AccessoriesRequest_ShipAndBill">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mps.test.Test_Orders_AccessoriesRequest_ShipAndBill -->
+      <class name="com.mps.test.Test_Consumables_Ordr_Shipped">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mps.test.Test_Consumables_Ordr_Shipped -->
+      <class name="com.mps.test.AccountSelectionTest">
+        <methods>
+          <include name="accountSelection"/>
+        </methods>
+      </class> <!-- com.mps.test.AccountSelectionTest -->
+      <class name="com.mps.test.Test_MADC_Lexmark_AddDevice">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mps.test.Test_MADC_Lexmark_AddDevice -->
+      <class name="com.mps.test.CreateNewAddressTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="CreateNewAddress_Test"/>
+        </methods>
+      </class> <!-- com.mps.test.CreateNewAddressTest -->
+    </classes>
+  </test> <!-- MPS Portal2.0 Automation (failed) -->
+</suite> <!-- Failed suite [MPS Portal-2 Automation v1.0] -->
